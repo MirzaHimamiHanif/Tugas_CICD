@@ -19,4 +19,3 @@ COPY --chown=app:root . ./
 RUN composer dump-autoload --no-scripts --no-dev --optimize
 
 EXPOSE 8080
-
